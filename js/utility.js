@@ -1,6 +1,6 @@
 const totalprice = document.getElementById('total-price');
 const grandTotalammount = document.getElementById('grand-total-ammount');
-const seatinput = document.getElementById('seatInputCount');
+const seatinput = document.getElementById('seatCount');
 const ticketcontainer = document.getElementById('ticket-container');
 const availableSeat = document.getElementById('availableSeat');
 const NextBtn = document.getElementById('btn-next');
@@ -17,8 +17,6 @@ const seatbutton = document.querySelectorAll('#seat-btn-container button');
 
 let ticketCount = 0;
 let phone;
-
-
 
 for(const btn of seatbutton) {
     btn.addEventListener('click', function(e) {
@@ -126,3 +124,8 @@ couponApplyBtn.addEventListener('click', function() {
         alert('Enter a valid coupon code.');
     }
 });
+
+
+
+
+

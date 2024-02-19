@@ -4,23 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Ticketing</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/2f4548b852.js" crossorigin="anonymous"></script>
-    <style>
-        .raleway-font {
-            font-family: "Raleway", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: normal;
-            font-style: normal;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="raleway-font relative">
 
@@ -62,7 +52,7 @@
             <div class="hero-content text-center text-neutral-content p-0">
               <div class="w-full lg:w-2/3 py-10 lg:py-20 px-5 lg:px-0">
                 <h1 class="mb-5 text-3xl lg:text-6xl text-white font-bold">End-to-End Travel with <br><span class="text-[#1DD100]">P Paribahan</span></h1>
-                <p class="mb-8">Discover seamless travel: Book bus tickets hassle-free. Find routes, schedules, and deals. Your journey begins with us. Start exploring now!</p>
+                <p class="mb-8">Greetings! Simplify travel plans with our user-friendly bus ticket system. Secure bookings, real-time updates, and a smooth journey await you. Safe travels!</p>
                 <a href="#ticket-section" class="text-lg font-bold text-black bg-[#1DD100] py-5 px-8 rounded-xl cursor-pointer inline-block lg:mb-10">Buy Tickets</a>
               </div>
             </div>
@@ -119,7 +109,7 @@
           
             <div class="lg:w-1/2 mx-auto text-center mb-6 lg:mb-12">
                 <h2 class="text-2xl lg:text-4xl font-bold mb-4 lg:mb-6">P.H Paribahan</h2>
-                <p class="text-lg opacity-60">Online bus ticket counter: book, reserve, and purchase bus tickets, offering routes, schedules, and seat selection for travelers.</p>
+                <p class="text-lg opacity-60">Welcome to our ticket counter! Swift service, friendly staff, and hassle-free transactions await you. Have a pleasant journey!</p>
             </div>
            
             <div class="mb-6">
@@ -129,7 +119,7 @@
                         <div class="flex items-center justify-between mb-6">
                             <div class="flex flex-col lg:flex-row justify-center items-center gap-3 text-center">
                                 <div>
-                                    <i class="fa-solid fa-van-shuttle text-6xl text-[#1DD100]"></i>
+                                    <i class="fa-solid fa-van-shuttle text-6xl text-[#000000]"></i>
                                 </div>
                                 <div>
                                     <h2 class="text-3xl font-bold mb-3">Greenline Paribahan</h2>
@@ -137,25 +127,25 @@
                                 </div>
                             </div> 
                             <div>
-                                <p class="p-4 text-[#1DD100] text-lg font-medium rounded-xl bg-[#1DD10026] max-w-max"><i class="fa-solid fa-couch"></i></i> <span id="availableSeat" class="mx-1">40</span> Seats left</p>
+                                <p class="p-4 text-[#1DD100] text-lg font-semibold rounded-xl bg-[#1DD10026] max-w-max"><i class="fa-solid fa-couch"></i></i> <span id="availableSeat" class="mx-1">40</span> Seats left</p>
                             </div> 
                         </div>
                        
                         <div class="p-8 space-y-6 bg-[#F7F8F8] rounded-3xl shadow-md">
                             <div class="flex items-center justify-between">
                                 <p class="text-lg font-semibold opacity-60">Route</p>
-                                <p class="text-lg font-semibold">Dhaka - Sylhet</p>
+                                <p class="text-lg font-bold">Dhaka - Sylhet</p>
                             </div>
                             <div class="w-full h-[1px] border-dashed border border-black/30"></div>
                             <div class="flex items-center justify-between">
                                 <p class="text-lg font-semibold opacity-60">Departure Time</p>
-                                <p class="text-lg font-semibold">9:00 PM</p>
+                                <p class="text-lg font-bold">9:00 PM</p>
                             </div>
                             <div class="w-full h-[1px] border-dashed border border-black/30"></div>
                             <div class="flex items-center justify-between flex-col lg:flex-row gap-2">
-                                <p class="p-4 text-base font-medium opacity-80 bg-[#0307120D] rounded-xl">Boarding Point - Laxmipur</p>
-                                <p class="p-4 text-base font-medium opacity-80 bg-[#0307120D] rounded-xl">Dropping Point - Bogura</p>
-                                <p class="p-4 text-base font-medium opacity-80 bg-[#0307120D] rounded-xl">Est. Time - 11 Hour</p>
+                                <p class="p-4 text-base  font-bold opacity-85 bg-[#0307120D] rounded-xl">Boarding Point - Laxmipur</p>
+                                <p class="p-4 text-base font-bold opacity-85 bg-[#0307120D] rounded-xl">Dropping Point - Bogura</p>
+                                <p class="p-4 text-base font-bold opacity-85 bg-[#0307120D] rounded-xl">Est. Time - 11 Hour</p>
                             </div>
                         </div>
                     </div>
@@ -248,16 +238,16 @@
                    
                     <div class="p-4 lg:p-8 bg-[#F7F8F8] rounded-xl shadow-lg">
                         <div class="flex items-center justify-between">
-                            <p class="font-medium">Seat <span id="seatInputCount" class="bg-[#1DD100] px-1 rounded-full text-white">0</span></p>
-                            <p class="font-medium">Class</p>
-                            <p class="font-medium">Price</p>
+                            <p class="font-bold">Seat <span id="seatCount" class="bg-[#1DD100] px-1 rounded-full text-white">0</span></p>
+                            <p class="font-bold">Class</p>
+                            <p class="font-bold">Price</p>
                         </div>
                         <div class="my-3 w-full h-[1px] border-dashed border border-[#03071233]"></div>
                         
                         <div class="opacity-60" id="ticket-container">
                         </div>
                         <div class="my-3 w-full h-[1px] border border-[#03071233]"></div>
-                        <div class="font-medium mb-3" id="discount-msg-container">
+                        <div class="font-bold mb-3" id="discount-msg-container">
                             <div class="flex justify-between mb-2">
                                 <p>Total Price</p>
                                 <p>BDT <span id="total-price">00</span></p>
@@ -269,18 +259,18 @@
                             <button id="couponApplyBtn" class="font-semibold px-5 py-3 text-white bg-[#1DD100] rounded-r-lg" disabled>Apply</button>
                         </div>
                     
-                        <div class="flex justify-between font-medium">
+                        <div class="flex justify-between font-bold">
                             <p>Grand Total</p>
                             <p>BDT <span id="grand-total-ammount">00</span></p>
                         </div>
                     </div>
                    
                     <div class="p-4 lg:p-8">
-                        <h3 class="font-semibold mb-4">Passenger Name*</h3>
+                        <h3 class="font-bold mb-4">Passenger Name*</h3>
                         <input type="text" placeholder="Enter your name" class="p-6 border border-[#0307121A] rounded-xl outline-none w-full mb-6">
-                        <h3 class="font-semibold mb-4">Phone Number*</h3>
+                        <h3 class="font-bold mb-4">Phone Number*</h3>
                         <input id="phoneNumber" type="text" placeholder="Enter your phone number" class="p-6 border border-[#0307121A] rounded-xl outline-none w-full mb-6">
-                        <h3 class="font-semibold mb-4">Email ID</h3>
+                        <h3 class="font-bold mb-4">Email ID</h3>
                         <input type="email" placeholder="Enter your email id" class="p-6 border border-[#0307121A] rounded-xl outline-none w-full mb-6">
                        
                         <button id="btn-next" class="p-5 w-full bg-[#1DD100] rounded-2xl text-white font-bold text-xl" disabled>Next</button>
@@ -334,15 +324,7 @@
                 </div>
             </div>
             <hr class="my-5 lg:my-12">
-            <!-- lower footer -->
-            <div class="flex flex-col-reverse lg:flex-row gap-4 items-center justify-between text-center">
-                <p class="opacity-70">@all rights reserved, P-Ticket services limited.2024</p>
-                <div class="flex flex-wrap gap-5 text-center">
-                    <a href="#">Terms & condition</a>
-                    <a href="#">Return & refund policy</a>
-                    <a href="#">Privacy policy</a>
-                </div>
-            </div>
+           
         </div>
     </footer>
     
